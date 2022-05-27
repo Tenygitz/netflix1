@@ -1,0 +1,65 @@
+.profileScreen{
+    color:white;
+    height:100vh;
+    background: url(https://hips.hearstapps.com/vidthumb/f3465da4-82ed-4d87-9265-1e8687238e62/thumb_1920x1080_00002_1632736414_69662.jpg);
+    background-size: cover;
+   
+
+    
+   
+}
+.plansScreen-gradient{
+    z-index: 1;
+    background: rgba(0, 0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8)90,
+    rgba(0,0,0,0)80%,
+    rgba(0,0,0,.8)100%);
+
+}
+.profileScreen-body{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    padding-top: 10%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profileScreen-body h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.profileScreen-info{
+    display: flex;
+}
+.profileScreen-info img{
+    height: 100px;
+}
+.profileScreen-details{
+    color: rgb(245, 236, 236);
+    margin: 20px;
+    flex: 1;
+}
+.profileScreen-details h2{
+    background-color: grey;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.profileScreen-signoutBtn{
+    color:white;
+    background-color: red;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+}
+.profileScreen-plans h3{
+    margin-bottom: 5px;
+
+}
