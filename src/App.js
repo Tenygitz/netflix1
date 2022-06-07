@@ -38,9 +38,9 @@ function App() {
   
         {!user ?(<LoginScreen/>):(
           <Routes>
-            <Route excat path="/login" element={<LoginScreen/>}></Route>
-            <Route excat path="/profile" element={<ProfileScreen/>}></Route>
-            <Route excat path="/" element={<HomeScreen/>}>
+            <Route  path="/login" element={<LoginScreen/>}></Route>
+            <Route  path="/profile" element={<ProfileScreen/>}></Route>
+            <Route  path="/" element={<HomeScreen/>}>
             
             </Route>
           </Routes>
